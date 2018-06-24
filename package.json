@@ -1,6 +1,6 @@
 {
   "name": "modjulie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "api for dynamic library generation",
   "main": "src/server.js",
   "scripts": {
