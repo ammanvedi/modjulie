@@ -1,0 +1,34 @@
+{
+  "name": "modjulie",
+  "version": "1.0.0",
+  "description": "api for dynamic library generation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node example/libserver.js",
+    "test": "mocha test/spec.js --delay"
+  },
+  "keywords": [
+    "module",
+    "api",
+    "dynamic",
+    "polyfillio",
+    "automatic",
+    "library"
+  ],
+  "author": "amman.vedi@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "crc-hash": "^0.2.2",
+    "express": "^4.16.3",
+    "js-sha256": "^0.9.0",
+    "signale": "^1.2.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-run": "^1.7.1",
+    "gulp-watch": "^5.0.0",
+    "mocha": "^5.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Modjulie</title>
+        <script type="text/javascript" src="http://localhost:3000/v1/default?modules=moduleA,moduleB" ></script>
+    </head>
+    <body>
+        <div id="module-contents" style="white-space: pre;"></div>
+        <script>
+            var element = document.getElementById( 'module-contents' );
+            element.innerHTML = JSON.stringify( window.application, null, '\t' );
+        </script>
+    </body>
+</html>
