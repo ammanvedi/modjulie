@@ -1,6 +1,12 @@
+
+![Ali G and mejulie](https://i.imgur.com/C2qDDuM.png "Ayyyyyyyye")
+
 # Modjulie
+
 [![Build Status](https://travis-ci.org/ammanvedi/modjulie.svg?branch=master)](https://travis-ci.org/ammanvedi/modjulie)
 [![npm version](https://badge.fury.io/js/modjulie.svg)](https://badge.fury.io/js/modjulie)
+
+https://i.imgur.com/C2qDDuM.png
 
 Modjulie is a server for building a library dynamically where required parts are added in the path and query string params of a http request. 
 
