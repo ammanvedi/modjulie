@@ -1,4 +1,7 @@
 # Modjulie
+[![Build Status](https://travis-ci.org/ammanvedi/modjulie.svg?branch=master)](https://travis-ci.org/ammanvedi/modjulie)
+[![npm version](https://badge.fury.io/js/modjulie.svg)](https://badge.fury.io/js/modjulie)
+
 Modjulie is a server for building a library dynamically where required parts are added in the path and query string params of a http request. 
 
 It is heavily inspired by the work done by the financial times [polyfill io service](https://polyfill.io/v2/docs/)
